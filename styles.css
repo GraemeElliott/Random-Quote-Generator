@@ -14,26 +14,10 @@ body {
   font-weight: bold;
 }
 
-#quote {
-  padding-left: 20px
-}
-
-#author-div {
-  margin-bottom: 40px;
-}
-
-#author {
-  float: right;
-  
-}
-
-#quoteButton {
-  float: right;
-}
-
 .quotation {
   font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  overflow:auto
 }
 
 .fa-quote-left {
@@ -41,10 +25,21 @@ body {
   padding-right: 10px;
 }
 
-.page-header {
-  border: none
+.quote {
+  padding-left: 10px;
+  padding-right: 10px;
+  
 }
 
-.fa-twitter {
-  
+.author {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.quoteButton {
+  float: right;
+}
+
+.page-header {
+  border: none
 }
